@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>天気</title>
+    <link rel="icon" src="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+    <link href="css/special.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>参考書を参考に制作しました</h1>
+        </div><!-- /.container -->
+        APIを用いてここ５日間の天気と気温を表示させることができます
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h3 id="place"></h3>
+                <div id="now">
+                    <div id="weather">
+                    </div>
+                </div>
+                <table id="forecast">
+                </table>
+            </section>
+        </div>
+            <script src="jquery-3.6.0.min.js"></script>
+            <script src="script.js"></script>
+</body>
+
+</html>
